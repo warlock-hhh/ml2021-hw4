@@ -1,0 +1,36 @@
+# Python caches and local runtime
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.matplotlib/
+
+# Virtual environments
+.venv*/
+venv/
+
+# Course dataset and metadata bundle
+Dataset/
+ml2021spring-hw4/
+
+# Training outputs and experiment artifacts
+experiments/
+*.pt
+*.pth
+*.ckpt
+*.csv
+
+# CUDA / PyTorch installation artifacts
+*.whl
+*.tmp
+torch.part*
+torch-download*
+gpu-install*.log
+
+# Private course material
+*.pdf
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
