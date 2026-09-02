@@ -445,7 +445,7 @@ CUDA available：True
 ### 訓練指令
 
 ```powershell
-cd "D:\010-worktable\碩士暑期練功計畫\ml2021\ml_hw4"
+cd <repository-path>\ml_hw4
 
 .\.venv\Scripts\python.exe hw04.py train `
   --epochs 30 `
